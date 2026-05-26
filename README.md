@@ -7,7 +7,26 @@ Pagina web estatica para un puesto de abarrotes del mercado Unicachi.
 - Landing page comercial en `index.html`.
 - Estilos responsivos en `styles.css`.
 - Menu movil en `script.js`.
+- Panel administrativo demo en `admin.html`.
+- Estilos y logica del panel en `admin.css` y `admin.js`.
 - Configuracion simple para Netlify en `netlify.toml`.
+
+## Panel admin demo
+
+La web publica tiene un boton `Admin` que abre `admin.html`.
+
+Credenciales temporales:
+
+- Usuario: `admin`
+- Contrasena: `puesto325`
+
+El panel permite ver y agregar datos de ejemplo para:
+
+- Inventario.
+- Ventas.
+- Registros.
+
+Importante: este login es solo una demostracion porque el repositorio es publico y el usuario/contrasena quedan visibles en el codigo. Para uso real hay que reemplazarlo por Supabase Auth y guardar inventario, ventas y registros en tablas de Supabase.
 
 ## Productos destacados
 
@@ -34,3 +53,4 @@ Pagina web estatica para un puesto de abarrotes del mercado Unicachi.
 - Horario de atencion.
 - Direccion mas exacta dentro del mercado si deseas agregarla.
 - Fotos reales del puesto cuando las tengas.
+- Autenticacion real del panel admin usando Supabase Auth.
